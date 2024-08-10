@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./box.module.css";
+import { Link } from "react-router-dom";
 
 function MainBox() {
   const [boxvalue, setvalue] = useState([
@@ -7,7 +8,10 @@ function MainBox() {
       name: "Anime",
       phpto: "../../../../asset/wallpaperflare.com_wallpaper (1).jpg",
     },
-    { name: "Movie", phpto: "../../../../asset/movie.jpg" },
+    {
+      name: "Movie",
+      phpto: "../../../../asset/movie.jpg",
+    },
     {
       name: "series",
       phpto:
@@ -19,7 +23,9 @@ function MainBox() {
       <div className={styles.box} key={i}>
         <div className={styles.hover}>
           <h1 className={styles.tittle}>{box.name}</h1>
-          <img className={styles.photo} src={box.phpto} alt="" />
+          <Link to={"/" + box.name}>
+            <img className={styles.photo} src={box.phpto} alt="" />
+          </Link>
         </div>
       </div>
     );

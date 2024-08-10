@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 .hover img:hover {
-  transition: 0.5s;
+  transition: 0.3s;
   opacity: 1;
   width: 400px;
 }
