@@ -1,0 +1,44 @@
+.resbox {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(54, 52, 52, 0.595);
+  color: aliceblue;
+  padding: 40px;
+  border-radius: 30px;
+}
+.text {
+  color: #ffffff;
+  visibility: visible;
+
+  border-radius: 10px;
+  height: max-content;
+  margin-right: 10px;
+}
+.text h1 :nth-child(1) {
+  background-color: rgba(227, 227, 227, 0.364);
+  border-radius: 10px;
+  font-family: "home";
+}
+.text h1 :nth-child(2) {
+  background-color: rgba(227, 227, 227, 0.364);
+  border-radius: 10px;
+  margin-left: 5px;
+}
+@font-face {
+  font-family: "home";
+  src: url("/asset/font/MondayFeelings-7BD2l.ttf");
+}
+.text h3 :first-child {
+  font-family: "home";
+}
+@font-face {
+  font-family: "box";
+  src: url("/asset/font/fontbox/FjallaOne-Regular.ttf");
+}
+.text h3 :last-child {
+  font-family: "box";
+  font-weight: 100;
+}
+.resbox img {
+  width: 200px;
+}

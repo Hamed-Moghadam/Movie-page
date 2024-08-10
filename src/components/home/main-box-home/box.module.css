@@ -1,0 +1,36 @@
+.tittle {
+  color: aliceblue;
+  cursor: pointer;
+  text-decoration: 8px underline #d70d0d;
+  text-align: center;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.38);
+  border-radius: 10px;
+}
+.box {
+  background-image: linear-gradient(to left, #9d484800, #3d373749, #ffffff00);
+  display: flex;
+  justify-content: center;
+  font-family: "box";
+  font-weight: 100;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+@font-face {
+  font-family: "box";
+  src: url("/asset/font/fontbox/FjallaOne-Regular.ttf");
+}
+
+.box img {
+  width: 300px;
+  border-radius: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.hover img:hover {
+  transition: 0.5s;
+  opacity: 1;
+  width: 400px;
+}

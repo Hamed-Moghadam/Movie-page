@@ -1,0 +1,12 @@
+/* Webfont: Rigamesh-Regular */@font-face {
+    font-family: 'Rigamesh';
+    src: url('Rigamesh.eot'); /* IE9 Compat Modes */
+    src: url('Rigamesh.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Rigamesh.woff') format('woff'), /* Modern Browsers */
+         url('Rigamesh.woff2') format('woff2'), /* Modern Browsers */
+         url('Rigamesh.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
