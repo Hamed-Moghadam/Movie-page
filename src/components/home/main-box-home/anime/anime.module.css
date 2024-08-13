@@ -1,0 +1,79 @@
+.maincontainer {
+  background-color: rgb(36, 36, 36);
+  padding-top: 20px;
+  margin-top: -20px;
+}
+.container {
+  direction: rtl;
+  transform: rotate(180deg);
+  position: relative;
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  justify-content: center;
+  padding: 20px;
+  border: 3px solid rgb(168, 13, 13);
+  overflow-x: auto;
+}
+.container::-webkit-scrollbar {
+  background-color: rgb(168, 13, 13);
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+.container::-webkit-scrollbar-thumb {
+  background: #e6e2e2;
+}
+.textcontainer {
+  transform: rotate(180deg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: absolute;
+  top: 25%;
+  background-color: rgba(28, 29, 31, 0.758);
+  color: aliceblue;
+}
+.imganime {
+  transform: rotate(180deg);
+  height: 100%;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+.headertitle {
+  text-align: center;
+  color: aliceblue;
+  font-family: "home";
+  font-size: 40px;
+}
+@font-face {
+  font-family: "home";
+  src: url("/asset/font/fontbox/FjallaOne-Regular.ttf");
+}
+.searchbox{
+display: flex;
+width: 100%;
+justify-content: center;
+margin-bottom: 30px;
+align-items: center;
+}
+.searchbox input{
+  width: 200px;
+  height: 20px;
+  background-color:rgb(36, 36, 36) ;
+  color: #fff;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.searchbox button{
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+.searchbox input::placeholder{
+  text-align: center;
+}
